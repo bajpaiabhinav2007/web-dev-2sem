@@ -17,16 +17,16 @@
 // console.log(user);
 // console.log(user.name);
 // console.log(user.hobbies[1]);  
-// // string literals..   
-// console.log(`my name is ${user.name} and my age is ${user.age}`+ user.demo());
+// // // string literals..   
+// // console.log(`my name is ${user.name} and my age is ${user.age}`+ user.demo());
 
-const car = {
-    brand : "BMW",
-    model : "X5",
+// const car = {
+//     brand : "BMW",
+//     model : "X5",
     
-};
-Object.freeze(car); // it will freeze the object car means no changes can be done to this object now.
-Object.seal(car); // it will seal the object car means no new key value pair can be added but existing key value pair can be modified.
-car.brand = "Audi";     
-car.color = "red";
-console.log(car);
+// };
+// Object.freeze(car); // it will freeze the object car means no changes can be done to this object now.
+// Object.seal(car); // it will seal the object car means no new key value pair can be added but existing key value pair can be modified.
+// car.brand = "Audi";     
+// car.color = "red";
+// console.log(car);
